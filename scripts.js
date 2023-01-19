@@ -106,8 +106,7 @@ function checkInputs() {
     return formControl.className === "form-control success";
   });
   if (formIsValid) {
-    //console.log("Sucesso!");
-    alert("Parabéns seu Cadastro foi realizado com Sucesso!")
+    alert("Parabéns seu cadastro foi realizado com Sucesso!")
   }
 }
 
