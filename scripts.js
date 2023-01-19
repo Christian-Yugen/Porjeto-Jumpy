@@ -62,7 +62,9 @@ function checkInputs() {
 
   if (usernameValue === "") {
     setErrorFor(username, '"Campo Obrigatório"');
-  } else {
+  } else if (usernameValue.length < 10) {
+    setErrorFor(username, '"Digite seu nome completo"');
+  }else {
     setSuccessFor(username);
   }
 
@@ -105,7 +107,7 @@ function checkInputs() {
   });
   if (formIsValid) {
     //console.log("Sucesso!");
-    document.write("Cadastro realizado com Sucesso!")
+    alert("Parabéns seu Cadastro foi realizado com Sucesso!")
   }
 }
 
