@@ -18,7 +18,7 @@ document.getElementById('cpf').addEventListener('input', function (e) {
 
   console.log('Com formatação: ' + e.target.value);
 
-  //Caso queira pegar apenas os números use essa função para remover todos os caracteres menos os números em Javascript
+  //Função para remover todos os caracteres menos os números em Javascript
   let valor = e.target.value.replace(/[^0-9]/g, '');
   console.log('Sem formatação: ' + valor);
 });
