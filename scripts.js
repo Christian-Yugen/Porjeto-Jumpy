@@ -25,8 +25,8 @@ document.getElementById('cpf').addEventListener('input', function (e) {
 
 //Mascara para o telefone.
 function mascara(o, f) {
-  v_obj = o
-  v_fun = f
+ v_obj = o
+ v_fun = f
   setTimeout("execmascara()", 1)
 }
 function execmascara() {
@@ -103,7 +103,7 @@ function checkInputs() {
   const formControls = form.querySelectorAll(".form-control");
 
   const formIsValid = [...formControls].every((formControl) => {
-    return formControl.className === "form-control success";
+    return (formControl.className === "form-control success");
   });
   if (formIsValid) {
     alert("Parabéns seu cadastro foi realizado com Sucesso!")

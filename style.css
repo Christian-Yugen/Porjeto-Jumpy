@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header #logoDnc{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+header #logoJumpy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background: #2D2D2D;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2D2D2D;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;
+ 
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    position: relative;
+  }
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  
+  #username{
+    font-size: 14px;
+    color: #616161;
+  }
+  
+  #email{
+    font-size: 14px;
+    color: #616161;
+  }
+  
+  #telefone{
+    font-size: 14px;
+    color: #616161;
+  }
+  
+  #cpf{
+    font-size: 14px;
+    color: #616161;
+  }
+
+  .form-control input {
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 524px;
+    padding: 10px;
+  }
+
+  .form-control i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+  }
+
+  .form-control small {
+    position: absolute;
+    top: 70px;
+    bottom: 0px;
+    left: 0px;
+    visibility: hidden;
+  }
+
+  .form button {
+    background-color: #0C70F2;
+    border: 2px solid #0C70F2;
+    color: #fff;
+    font-size: 18px;
+    width: 524px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .form button:hover{
+    background-color: #2ecc71;
+    color: black;
+  }
+
+  /* Error and Success */
+.form-control.success input {
+    border-color: #2ecc71;
+  }
+  
+  .form-control.error input {
+    border-color: #E73550;
+  }
+  
+  .form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  }
+  
+  .form-control.error i.fa-exclamation-circle {
+    color: #E73550;
+    visibility: visible;
+  }
+  
+  .form-control.error small {
+    visibility: visible;
+    color: #E73550;
+    font-size: 14px;
+    top: 69px;
+    margin-left: 75%;
+  }
